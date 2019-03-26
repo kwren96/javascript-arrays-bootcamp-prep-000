@@ -8,7 +8,7 @@ var grilledCheeseIngredients = ['bread', 'mild cheese', ' sharp cheese', 'butter
 var tomatoSauceIngredients = ['tomato', 'garlic', 'olive oil', 'basil', 'oregano'];
 
 var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
-var element = 'foo';
+const element = 'foo';
 
 function addElementToBeginningOfArray(array) {return [element, ...array]}
 
