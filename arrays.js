@@ -12,10 +12,10 @@ const element = 'foo';
 
 function addElementToBeginningOfArray(array) {return [element, ...array]}
 
-function destructivelyAddElementToBeginningOfArray(array) {return array.unshift(element)}
+function destructivelyAddElementToBeginningOfArray(array) {array.unshift(element); return array}
 
 function addElementToEndOfArray(array) {return [...array, element]}
-function destructivelyAddElementToEndOfArray(array) {return array.push(element)}
+function destructivelyAddElementToEndOfArray(array) {array.push(element); return array}
 var index = 2;
 function accessElementInArray(array) {return array[index]}
 function destructivelyRemoveElementFromBeginningOfArray(array) { array.shift(); return array}
